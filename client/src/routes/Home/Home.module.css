@@ -1,7 +1,6 @@
 .home {
-  width: 420px;
-  height: 156px;
-  flex-shrink: 0;
+  width: 26.25em;
+  height: 9.75em;
 
   border-radius: 0.5em;
   background: #121212;
@@ -12,8 +11,8 @@
   margin-top: 1.3em;
   margin-left: 1.2em;
 
-  width: 78px;
-  height: 24px;
+  width: 4.875em;
+  height: 1.5em;
 }
 
 .desc {
@@ -25,8 +24,8 @@
 }
 
 .desc img {
-  width: 24px;
-  height: 24px;
+  width: 1.5em;
+  height: 1.5em;
 }
 
 .desc a {
@@ -47,8 +46,8 @@
 }
 
 .search img {
-  width: 24px;
-  height: 24px;
+  width: 1.5em;
+  height: 1.5em;
 }
 
 .search a {
@@ -62,3 +61,33 @@
   opacity: 0.6;
 }
 
+.mae {
+  margin-top: 0.5em;
+
+  width: 420px;
+  height: 646px;
+
+  border-radius: 0.5em;
+  background: #121212;
+}
+
+.library {
+  display: flex;
+  flex-direction: row;
+
+  margin-left: 1.2em;
+}
+
+.library p {
+  color: white;
+
+  opacity: 0.6;
+  padding: 0.6em 1.5em;
+
+  font-size: 0.9em;
+}
+
+.maizi {
+  margin-top: 0.85em;
+  margin-left: 14em;
+}
