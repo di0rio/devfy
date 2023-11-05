@@ -1,3 +1,67 @@
+.acount {
+  display: flex;
+
+  margin-top: -9em;
+  margin-right: 1.6em;
+
+  gap: 70em;
+
+  float: right;
+}
+
+.acount a {
+  text-decoration: none;
+  color: #a7a7a7;
+
+  margin-right: 1.7em;
+}
+
+.entrar {
+  width: 109.38px;
+  height: 48px;
+
+  padding: 14.4px 32.38px 13.6px 32px;
+
+  border-radius: 9999px;
+  background: #fff;
+  border: none;
+
+  color: #000;
+  font-family: Inter;
+  font-size: 15.1px;
+
+  font-weight: 700;
+}
+
+.card {
+  float: right;
+
+  display: flex;
+
+  width: 996px;
+  height: 656px;
+
+  padding: 0px 23.922px;
+
+  margin-top: -5em;
+  margin-right: 10em;
+
+  background-color: #1a1a1a;
+
+  --background-base: #121212;
+  --background-highlight: #1a1a1a;
+  --background-press: #000;
+  --background-elevated-base: #242424;
+  --background-elevated-highlight: #2a2a2a;
+  --background-elevated-press: #000;
+  --background-tinted-base: hsla(0, 0%, 100%, 0.07);
+  --background-tinted-highlight: hsla(0, 0%, 100%, 0.1);
+  --background-tinted-press: hsla(0, 0%, 100%, 0.04);
+  --background-unsafe-for-small-text-base: #121212;
+  --background-unsafe-for-small-text-highlight: #121212;
+  --background-unsafe-for-small-text-press: #121212;
+}
+
 .home {
   width: 26.25em;
   height: 9.75em;
@@ -61,6 +125,12 @@
   opacity: 0.6;
 }
 
+.search a:hover {
+  color: #fff;
+  animation: 0.5s;
+  transition: 0.5s;
+}
+
 .mae {
   margin-top: 0.5em;
 
@@ -79,10 +149,11 @@
 }
 
 .library p {
+  white-space: nowrap;
   color: white;
 
   opacity: 0.6;
-  padding: 0.6em 1.5em;
+  padding: 0.6em 0.9em;
 
   font-size: 0.9em;
 }
@@ -90,4 +161,186 @@
 .maizi {
   margin-top: 0.85em;
   margin-left: 14em;
+
+  cursor: pointer;
 }
+
+.filhos {
+  padding: 0em;
+}
+
+.playliste {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 0.3em;
+  margin-top: 1.5em;
+
+  width: 404px;
+  height: 134px;
+
+  border-radius: 8px;
+  background: #242424;
+
+  color: white;
+}
+
+.playliste h4 {
+  margin-left: 1.2em;
+}
+
+.playliste p {
+  font-size: 0.8125rem;
+
+  margin-top: -1em;
+  margin-left: 1.43em;
+}
+
+.create {
+  display: flex;
+
+  margin-left: 1.43em;
+
+  width: 126.66px;
+  height: 32px;
+
+  padding: 8.6px 17.66px 8.4px 19px;
+
+  border-radius: 9999px;
+  border: none;
+  background: #fff;
+
+  font-weight: 700;
+  font-size: 13.2px;
+  font-family: Inter;
+
+  transition: transform 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.create:hover {
+  /* transform: translateY(10px); */
+  transform: translateX(10px);
+}
+
+.podcast {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 0.3em;
+  margin-top: 1.5em;
+
+  width: 404px;
+  height: 134px;
+
+  border-radius: 8px;
+  background: #242424;
+
+  color: white;
+}
+
+.podcast h4 {
+  margin-left: 1.2em;
+}
+
+.podcast p {
+  font-size: 0.8125rem;
+
+  margin-top: -1em;
+  margin-left: 1.43em;
+}
+
+.createP {
+  display: flex;
+
+  margin-left: 1.43em;
+
+  width: 142.96px;
+  height: 32px;
+
+  padding: 7.6px 14.96px 7.4px 16px;
+
+  border-radius: 9999px;
+  border: none;
+  background: #fff;
+
+  font-weight: 700;
+  font-size: 13.2px;
+  font-family: Inter;
+  white-space: nowrap;
+
+  transition: transform 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.createP:hover {
+  /* transform: translateY(10px); */
+  transform: translateX(10px);
+}
+
+.avos {
+  margin-top: 7em;
+}
+
+.tio {
+  display: flex;
+  flex-direction: column;
+
+  padding: 1em 2;
+
+  margin-top: 5em;
+}
+
+.tio a {
+  margin-left: 0.7em;
+
+  text-decoration: none;
+  color: #a7a7a7;
+  font-size: 0.6875rem;
+}
+
+.btnL {
+  height: 32px;
+
+  padding: 4.6px 14.86px 7.4px 13px;
+
+  border-radius: 9999px;
+  border: 1px solid #727272;
+
+  background: #121212;
+
+  color: white;
+
+  margin-left: 1em;
+  margin-top: 2em;
+
+  cursor: pointer;
+
+  transition: transform 0.5s ease-in-out;  
+  /* -webkit-animation: slide-fwd-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-fwd-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; */
+}
+
+.btnL:hover{
+  transform: translateX(10px);
+  animation: 0.5s;
+  transition: 0.5s;
+}
+
+@media (max-width: 390px) {
+  .acount {
+    display: flex;
+    padding: 0.1em 0em 0em 0em;
+
+    white-space: nowrap;
+  }
+}
+/* @media (max-width: 481px) and (max-width: 767px) {} */
+@media (max-width: 768px) and (max-width: 991px) {
+  .acount {
+    margin-right: 17em;
+  }
+}
+/* @media (max-width: 992px) and (max-width: 1199px) {} */
+/* @media (max-width: 1200px) and (max-width: 1919px) {} */
+/* @media (max-width: 1920px) {} */
