@@ -10,6 +10,7 @@ import seta1 from "../../assets/seta1.svg";
 import seta2 from "../../assets/seta2.svg";
 
 import mundo from "../../assets/mundo.svg";
+import Card from "../../components/Card/Card";
 
 const Home = () => {
   return (
@@ -39,8 +40,14 @@ const Home = () => {
           <button className={style.entrar}>Entrar</button>
         </div>
       </div>
-      <div className={style.card}>
-        <div></div>
+      <div className={style.corpoCard}>
+        <div className={style.title}>
+          <h2>Playlists do Spotify</h2>
+          <a href="#">mostrar tudo</a>
+        </div>
+        <div className={style.card}>
+          <Card></Card>
+        </div>
       </div>
       <div className={style.mae}>
         <div className={style.library}>

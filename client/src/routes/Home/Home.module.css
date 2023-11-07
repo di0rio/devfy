@@ -35,13 +35,26 @@
   cursor: pointer;
 }
 
-.entrar:hover{
+.entrar:hover {
   background-color: aqua;
   animation: 0.5s;
   transition: 0.5s;
 }
 
-.card {
+.title {
+  display: flex;
+  flex-wrap: wrap;
+
+  color: white;
+}
+
+.title a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.corpoCard {
   float: right;
 
   display: flex;
@@ -324,12 +337,12 @@
 
   cursor: pointer;
 
-  transition: transform 0.5s ease-in-out;  
+  transition: transform 0.5s ease-in-out;
   /* -webkit-animation: slide-fwd-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   animation: slide-fwd-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; */
 }
 
-.btnL:hover{
+.btnL:hover {
   transform: translateX(10px);
   animation: 0.5s;
   transition: 0.5s;

@@ -5,12 +5,12 @@ import ReactDOM from "react-dom/client";
 import App from "./pages/App";
 
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Home from "./routes/Home/Home";
+// import Home from "./routes/Home/Home";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <App />,
     // errorElement: <Error />,
     children: [
       // { path: "/", element: <Home /> },
