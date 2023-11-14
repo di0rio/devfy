@@ -6,6 +6,8 @@ import lupa from "../../assets/lupa.svg";
 import livro from "../../assets/livro.svg";
 import mais from "../../assets/mais.svg";
 
+import play from "../../assets/play.png"
+
 import seta1 from "../../assets/seta1.svg";
 import seta2 from "../../assets/seta2.svg";
 
@@ -41,12 +43,18 @@ const Home = () => {
         </div>
       </div>
       <div className={style.corpoCard}>
+        <div>
         <div className={style.title}>
           <h2>Playlists do Spotify</h2>
           <a href="#">mostrar tudo</a>
         </div>
+        </div>
         <div className={style.card}>
-          <Card></Card>
+          <Card img={play}></Card>
+          <Card img={play}></Card>
+          <Card img={play}></Card>
+          <Card img={play}></Card>
+          <Card img={play}></Card>
         </div>
       </div>
       <div className={style.mae}>
