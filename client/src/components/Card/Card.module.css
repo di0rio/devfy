@@ -16,3 +16,12 @@ body {
   border-radius: 8px;
   background: #181818;
 }
+
+.card p{
+  color: grey;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}

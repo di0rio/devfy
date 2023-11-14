@@ -1,11 +1,11 @@
 import style from './Card.module.css'
 
-const Card = ({children, img}) => {
+const Card = ({img}) => {
   return (
     <div>
         <div className={style.card}>
             <img src={img} alt="toca o som." width={'270'} />
-            <p>{children}</p>
+            <p>Desc da música</p>
         </div>
     </div>
   )

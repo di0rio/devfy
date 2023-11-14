@@ -52,12 +52,16 @@
 
 .title a {
   text-decoration: none;
-  color: white;
+  color: #727272;
 
   margin-top: 1.6em;
   margin-left: 62em;
 }
 
+.title a:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
 
 .corpoCard {
   float: right;
@@ -78,6 +82,8 @@
   margin-left: 1.8em;
 
   gap: 2.9em;
+
+  cursor: pointer;
 }
 
 .card img{

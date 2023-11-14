@@ -46,7 +46,7 @@ const Home = () => {
         <div>
         <div className={style.title}>
           <h2>Playlists do Spotify</h2>
-          <a href="#">mostrar tudo</a>
+          <a href="#">Mostrar tudo</a>
         </div>
         </div>
         <div className={style.card}>
